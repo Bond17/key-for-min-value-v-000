@@ -5,6 +5,7 @@ def key_for_min_value(name_hash)
 if name_hash = []
   nil
 end
+inded = nil
 smallest = name_hash[0]
 name_hash.collect do |name, value|
 if value <= smallest
