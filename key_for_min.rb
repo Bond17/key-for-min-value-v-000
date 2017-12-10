@@ -14,7 +14,7 @@ i=0
 lowest= 0
 array_lowest=array[0]
 array.each do |test|
-  if test<array_lowest
+  if test < array_lowest
     array_lowest = test
     lowest = i
   end
