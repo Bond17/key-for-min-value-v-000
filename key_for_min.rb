@@ -12,7 +12,7 @@ name_hash.collect do |name, value|
 if value <= smallest
   index = name
   smallest = value
-  puts smallest
+  
 end
 end
 index
