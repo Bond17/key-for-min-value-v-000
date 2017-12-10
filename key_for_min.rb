@@ -6,7 +6,7 @@ if name_hash = []
   nil
 end
 index = nil
-smallest = name_hash[0]
+smallest = name_hash.first
 puts smallest
 name_hash.collect do |name, value|
 if value <= smallest
