@@ -11,7 +11,7 @@ array = name_hash.collect do |name, value|
   value
 end
 i=0
-lowest= 0
+# lowest= 0
 array_lowest=array[0]
 array.each do |test|
   if test < array_lowest
