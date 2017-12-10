@@ -19,6 +19,7 @@ array.each do |test|
     lowest = i
     puts lowest
   end
+  i+=1
 end
 index[lowest]
 end
