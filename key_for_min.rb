@@ -8,8 +8,6 @@ if value <= smallest
   index = name
   smallest= value
 end
-
-
 end
-
+index
 end
