@@ -7,7 +7,7 @@ if name_hash = []
 end
 index = []
 smallest = 999999999
-name_hash.collect do |name, value|
+array = name_hash.collect do |name, value|
 index << name
 value
 end
