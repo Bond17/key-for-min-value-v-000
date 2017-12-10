@@ -12,7 +12,6 @@ name_hash.each do |name, value|
 if value <= smallest
   index = name
   smallest = value
-
 end
 end
 index
