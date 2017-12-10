@@ -10,6 +10,7 @@ array = name_hash.collect do |name, value|
   index << name
   value
 end
+array.each
 end
 index[lowest]
 end
