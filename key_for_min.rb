@@ -7,7 +7,7 @@ if name_hash = []
 end
 index = []
 puts name_hash.collect do |name, value|
-  index << name
+
   value
 end
 # puts "array #{array}"
