@@ -8,11 +8,11 @@ end
 index = nil
 smallest = name_hash.first
 puts smallest
-name_hash.collect do |name, value|
+name_hash.each do |name, value|
 if value <= smallest
   index = name
   smallest = value
-  
+
 end
 end
 index
