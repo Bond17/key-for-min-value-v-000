@@ -6,7 +6,7 @@ if name_hash = []
   nil
 end
 index = nil
-smallest = name_hash.first
+smallest = 999999999
 puts smallest
 name_hash.each do |name, value|
   puts value
