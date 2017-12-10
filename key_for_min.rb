@@ -7,6 +7,7 @@ if name_hash = []
 end
 index = nil
 smallest = name_hash.first
+binding pry
 puts smallest
 name_hash.each do |name, value|
   puts value
