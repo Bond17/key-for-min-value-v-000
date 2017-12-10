@@ -12,5 +12,5 @@ index << name
 value
 end
 end
-index
+index[lowest]
 end
