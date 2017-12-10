@@ -8,7 +8,7 @@ end
 index = nil
 smallest = 999999999
 name_hash.collect do |name, value|
-
+value
 end
 end
 index
