@@ -6,7 +6,7 @@ if name_hash == []
   nil
 end
 index = []
-arry = name_hash.collect do |name, value|
+array = name_hash.collect do |name, value|
   index << name
   value
 end
