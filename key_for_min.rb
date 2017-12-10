@@ -9,7 +9,7 @@ index = nil
 smallest = 999999999
 name_hash.each do |name, value|
   puts value
-if value <= smallest
+i f value <= smallest
   index = name
   smallest = value
   puts index
