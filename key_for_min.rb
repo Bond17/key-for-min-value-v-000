@@ -6,10 +6,9 @@ if name_hash = []
   nil
 end
 index = []
-smallest = 999999999
 array = name_hash.collect do |name, value|
-index << name
-value
+  index << name
+  value
 end
 end
 index[lowest]
