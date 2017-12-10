@@ -7,7 +7,6 @@ if name_hash = []
 end
 index = nil
 smallest = 999999999
-puts smallest
 name_hash.each do |name, value|
   puts value
 if value <= smallest
