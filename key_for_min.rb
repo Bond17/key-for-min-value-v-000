@@ -13,7 +13,7 @@ end
 i=0
 array_lowest=array[0]
 array.each do |test|
-  if test<
+  if test<array_lowest
 end
 index[lowest]
 end
