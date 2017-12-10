@@ -17,6 +17,7 @@ array.each do |test|
   if test < array_lowest
     array_lowest = test
     lowest = i
+    puts lowest
   end
 end
 index[lowest]
