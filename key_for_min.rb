@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
 if name_hash = []
   nil
 end
-index = nil
+index = []
 smallest = 999999999
 name_hash.collect do |name, value|
 value
